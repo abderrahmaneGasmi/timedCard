@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Timed Card
+this is an attempt to create a timed card animation seen in codepen and tried to clone it without looking to the code   
+# Screenshots
+<div style="display:flex">
+        <img width="47%" height="250px" style="margin-right:10px;" src="https://github.com/abderrahmaneGasmi/timedCard/assets/119729705/33fdde16-bdd6-47aa-ba1d-0154aadf34dd"/>
+       <img width="47%" height="250px" src="https://github.com/abderrahmaneGasmi/timedCard/assets/119729705/c475f4c1-3dca-4c86-96a9-57d7c38dcb0d"/>
+         <img width="98%" height="350px" src="https://github.com/abderrahmaneGasmi/timedCard/assets/119729705/89915d5d-e001-4b75-bf14-26c4392f1ea6"/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Example
+<img width="67%" height="350px" style="margin-right:10px;" src="https://github.com/abderrahmaneGasmi/timedCard/assets/119729705/0ba909f8-af53-4ba3-af4a-5ccdbfd8a9a6"/>
 
-## Expanding the ESLint configuration
+# 💻 Running the project
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+to run this project 
+Clone this repository :
+```
+git clone [https://github.com/abderrahmaneGasmi/timedCard]
+```
+## Backend
+```
+cd timedCard
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Install packages :
+```
+npm i
+```
+When installation is complete, run command :
+```
+npm run dev
