@@ -19,7 +19,6 @@ Clone this repository :
 ```
 git clone [https://github.com/abderrahmaneGasmi/timedCard]
 ```
-## Backend
 ```
 cd timedCard
 ```
